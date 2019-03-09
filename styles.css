@@ -1,0 +1,43 @@
+.homeUl {
+    list-style-type: none;
+}
+
+/* select links inside .homeUl */
+
+.homeUl a {
+color: red;
+}
+
+.homeUl li {
+    border: 2px solid pink;
+    font-size: 50px;
+    margin: 6px;
+    padding: 8px;   
+}
+
+.pinkback {
+    background-color: pink;
+    color: white;
+}
+.flex-container {
+display: flex;
+flex-direction: row;
+border: 2px solid red;
+}
+.flex-container > div:nth-child(1) {
+   border: 1px solid blue; 
+   flex: 1;
+
+}
+
+.flex-container > div:nth-child(2) {
+    border: 1px solid blue; 
+    flex: 1;
+ 
+ }
+
+.flex-container > div:nth-child(3) {
+   border: 1px solid blue; 
+   flex: 1;
+
+}
